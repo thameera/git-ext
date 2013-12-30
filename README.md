@@ -48,6 +48,31 @@ Show last commit info.
 git-last
 ```
 
+### git-contributors
+
+Show contributors list with commits count:
+
+```
+git-contributors
+```
+
+```
+   354  0xAX
+    59  Matheus Caceres
+    27  Mendor
+     7  Paulo A Pereira
+     5  Alexander Kuleshov
+     3  Caio Tarifa
+     3  Josh Adams
+     2  Leo Correa
+     2  Michael Simpson
+     1  Jonathan Tron
+     1  Marcos Almonacid
+     1  Nikita Kalashnikov
+     1  Paul DiPietro
+     1  d3b00m
+```
+
 ### git-new-repo
 
 Create new git repository with `.gitignore` and `README.md` and add remote repo
