@@ -40,6 +40,14 @@ Delete new local branch.
 git-delete-branch branch-name
 ```
 
+### git-last
+
+Show last commit info.
+
+```
+git-last
+```
+
 ### git-new-repo
 
 Create new git repository with `.gitignore` and `README.md` and add remote repo
