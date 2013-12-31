@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git log --abbrev-commit --all --graph --decorate --color
+
+exit 0

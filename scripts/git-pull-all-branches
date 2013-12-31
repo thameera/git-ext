@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo `git remote update`
+echo `git pull --all`
+
+exit 0

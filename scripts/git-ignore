@@ -3,7 +3,7 @@
 if [ "$#" -eq 0 ]; then
     touch .gitignore
 else
-	for ARG in "$@"
+    for ARG in "$@"
     do
         echo -e "$ARG\n`cat .gitignore`"  > .gitignore
     done

@@ -32,12 +32,36 @@ Create new local branch.
 git-create-branch new-branch-name
 ```
 
+### git-create-remote-branch
+
+Create new remote branch
+
+```
+git-create-remote-branch new-branch-name
+```
+
 ### git-delete-branch
 
-Delete new local branch.
+Delete local branch.
 
 ```
 git-delete-branch branch-name
+```
+
+### git-delete-remote-branch
+
+Delete remote branch
+
+```
+git-delete-remote-branch branch-name
+```
+
+### git-rename-branch
+
+Rename local branch
+
+```
+git-rename-branch old_name new_name
 ```
 
 ### git-last
@@ -93,6 +117,73 @@ Create new git repository with `.gitignore` and `README.md` and add remote repo
 
 ```
 git-new-repo repo-name
+```
+
+### git-pull-all-branches
+
+Pull all remote branches for current repository.
+
+```
+git-pull-all-branches
+```
+
+## git-log
+
+### git-log-last
+
+Show last commit info
+
+```
+git-log-last
+```
+
+result:
+
+```
+commit 284c74054669c196374be1bc7b04bd556b34d9d7 Author: 0xAX Date: Tue Dec 31 14:12:08 2013 +0600 git-ignore added
+```
+
+### git-log-pretty-line
+
+Show colored git log line by line:
+
+```
+git-log-pretty-line
+```
+
+result:
+
+```
+* 284c740 - git-ignore added (35 minutes ago) <0xAX>
+* d96b361 - git-contributors added (13 hours ago) <0xAX>
+* f546788 - git-last added (13 hours ago) <0xAX>
+* 9028e3e - git-last added (13 hours ago) <0xAX>
+* 98b0da1 - initial commit (13 hours ago) <0xAX>
+```
+
+### git-log-graph
+
+Show colored git log graph
+
+```
+git-log-graph
+```
+
+result:
+
+```
+* commit f546788
+| Author: 0xAX
+| Date:   Tue Dec 31 01:52:58 2013 +0600
+| 
+|     git-last added
+|  
+* commit 9028e3e
+| Author: 0xAX
+| Date:   Tue Dec 31 01:52:56 2013 +0600
+| 
+|     git-last added
+
 ```
 
 ## Author
