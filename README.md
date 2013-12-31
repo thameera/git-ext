@@ -73,6 +73,20 @@ git-contributors
      1  d3b00m
 ```
 
+### git-ignore
+
+Create empty `.gitignore`
+
+```
+git-ignore
+```
+
+Create `.gitignore` with some ignore files
+
+```
+git-ignore file1 file2
+```
+
 ### git-new-repo
 
 Create new git repository with `.gitignore` and `README.md` and add remote repo
