@@ -1,6 +1,5 @@
 install:
-	chmod +x scripts/*
-	chmod +x scripts/git-log/*
+	chmod -R +x scripts/*
 
-	cp -r scripts/git-log/* /usr/bin/
-	cp -r scripts/* /usr/bin/
+	find scripts -type f -exec cp {} /usr/bin \;
+
