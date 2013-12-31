@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git rm $(git ls-files --deleted)
+
+exit 0

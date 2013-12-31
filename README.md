@@ -111,6 +111,14 @@ Create `.gitignore` with some ignore files
 git-ignore file1 file2
 ```
 
+### git-move-and-commit
+
+Move unstaged changes to the new branch and make commit
+
+```
+git-move-and-commit new-branch
+```
+
 ### git-new-repo
 
 Create new git repository with `.gitignore` and `README.md` and add remote repo
@@ -119,12 +127,28 @@ Create new git repository with `.gitignore` and `README.md` and add remote repo
 git-new-repo repo-name
 ```
 
+### git-undo
+
+Hard reset to the previous commit/tag
+
+```
+git-undo 0c914
+```
+
 ### git-pull-all-branches
 
 Pull all remote branches for current repository.
 
 ```
 git-pull-all-branches
+```
+
+### git-delete-deleted
+
+Delete already removed from disk files from git.
+
+```
+git-delete-deleted
 ```
 
 ## git-log
